@@ -1,0 +1,6 @@
+framework module TSAlertController {
+  umbrella header "TSAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

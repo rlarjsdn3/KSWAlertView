@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TSAlertController_Example' do
+  pod 'TSAlertController', :path => '../'
+
+  target 'TSAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
